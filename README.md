@@ -22,11 +22,12 @@ RECONFIGURE
 GO
 ```
 
-
 ## USAGE
 
 ```
-from py-scripto.sqlserver
+from py_scripto import sqlserver
+
 sqlserver.run_file_script(server="DAVID\DAVID", uid="py-scripto", pwd="py-scripto", connect_to_db="IMPORT", script_path="D:\\Downloads\\test.sql")
+
 sqlserver.run_script(server="DAVID\DAVID", uid="py-scripto", pwd="py-scripto", connect_to_db="IMPORT", sql="SELECT * FROM Test WITH (NOLOCK)")
 ```

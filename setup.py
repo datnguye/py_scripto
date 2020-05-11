@@ -7,7 +7,7 @@ setup(
      author_email='datnguyen.it09@gmail.com',
      packages=['py_scripto'],
      url='https://github.com/datnguye/py_scripto',
-     license='LICENSE',
+     license='MIT',
      description='A package to run SQL script or SQL file script in an instance of sql server',
      long_description=open('README.md').read(),
      install_requires=["pyodbc==4.0.30"],
