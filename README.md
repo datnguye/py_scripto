@@ -1,16 +1,23 @@
 # py-scripto
 This is to run SQL script or file script in an instance of sql server
 
+Installation:
+```
+python -m pip install py_scripto
+```
+
 ### Version used
+```
 SQL Server 2019
 Python 3.7.5
-
+```
 
 ## DEPENDENCIES
 
 ### DbExec stored procedure
-Download from https://github.com/datnguye/SQL-Server/blob/master/maintenance/DbExec.sql
-Compile it to master database
+1. Download from https://github.com/datnguye/SQL-Server/blob/master/maintenance/DbExec.sql
+
+2. Compile it to master database
 
 ### xp_cmdshell need enabling on SQL instance
 ```
