@@ -1,0 +1,5 @@
+Change setup.py > version
+
+Build new dist: python setup.py sdist bdist_wheel
+
+Upload new version: python -m twine upload --skip-existing dist/*
